@@ -1,0 +1,9 @@
+Python dependencies used in this project. Executed primarily on Databricks Runtime
+
+Python / PySpark -> Core for all transformations.
+
+SQL / Spark SQL -> Used for querying, validating, and aggregating transformed data.
+
+Delta Lake (Gold layer) -> Needed for Delta read/write support.
+
+Pandas/NumPy -> Used alongside Spark for sampling and checks as supporting tools.
